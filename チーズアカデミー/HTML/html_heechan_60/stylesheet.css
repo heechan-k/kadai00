@@ -1,0 +1,366 @@
+header {
+    width: 100%;
+    display: flex;
+    padding: 0 2%;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    position: sticky;
+    z-index: 999;
+    background-color: white;
+}
+.header-list li {
+    list-style: none;
+    font-size: 21px;
+    margin: 50px 50px 50px 0px;
+}
+body {
+    font-family:'メイリオ', 'Meiryo', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+}
+
+ul {
+    display: flex;
+}
+.header a {
+    text-decoration: none;
+    color: #000;
+}
+.header a:hover {
+    opacity: 0.5;
+}
+
+.header-logo {
+    margin: 38px 0px 20px 30px;
+}
+
+.wrapper {
+    width: 1200px;
+    max-width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top img {
+    width: 100%;
+    height: 100%;
+}
+.top h1 {
+    margin-bottom: 30px;
+    color: white;
+}
+.top h2 {
+    color: white;
+}
+
+.top h1 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top-wrapper {
+    margin-inline: auto;
+    position: relative;
+    width: 80%;
+  }
+  .top-image img {
+    height: auto;
+    width: 100%;
+  }
+  .top-title {
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    left: 50%;
+    position: absolute;
+    text-shadow: 2px 2px 5px #333;
+    top: 50%;
+    transform: translate(-50%, -65%);
+    text-align: center;
+    white-space: nowrap;
+  }
+  .top-title h1 {
+    margin-bottom: 30px;
+  }
+  .about {
+    text-align: center;
+  }
+  .about h3 {
+    margin: 60px 0px 30px 0px;
+    color: #ffd61a;
+    font-size: 24px;
+  }
+  .text1 {
+    margin-bottom: 60px;
+    font-size: 18px;
+  }
+  .text2 {
+    margin: 40px 0px;
+  }
+  .text3 {
+    margin-bottom: 80px;
+  }
+  .text2 .text3 {
+    font-size: 16px;
+  }
+  .slide {
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+    .slider-inner {
+  display: flex;
+  animation: slide-flow 20s infinite linear 1s both;
+}
+    .slider-item {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+  /* border: 1px solid #ddd; */
+}
+@keyframes slide-flow {
+     0% {transform: translateX(0);}
+ 100% {transform: translateX(-100%);}
+}
+.course-text {
+    text-align: center;
+}
+.course-text h3 {
+    margin: 60px 0px 30px 0px;
+    font-size: 24px;
+}
+.course-text1 {
+    margin-bottom: 60px;
+    font-size: 16px;
+}
+/* ul {
+    max-width: 600px;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+}
+
+
+ul li .photo,
+ul li .txt {
+    width: 50%;
+    box-sizing: border-box;
+}
+ul li:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+ul li:nth-child(odd) .txt {
+    padding-right: 10px;
+}
+
+ul li:nth-child(even) .txt {
+    padding-left: 10px;
+} */
+.box {
+  display: flex;
+  background-color: #fafafa;
+}
+.box > div {
+  width: 50%;
+}
+.pict img {
+  width: 100%;
+  height: auto;
+}
+.boxcontainer .box:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+.text {
+    width: 480px;
+    text-align: center;
+    margin: 6rem auto;
+}
+.about-text h3 {
+    margin: 60px 0px 30px 0px;
+    color: #ffd61a;
+}
+.about-text1 {
+    margin-bottom: 60px;
+}
+.about-text {
+    text-align: center;
+}
+.more {
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+}
+.news-contents {
+    width: 300px;
+    margin: 0px 30px 60px 0px; 
+}
+.news-contents a {
+    text-decoration: none;
+    color: #000;
+    list-style: none;
+}
+.news-hover:hover {
+    opacity: 0.5;
+}
+.news-contents p {
+    font-size: 14px;
+}
+.more-button {
+    background: #ffd61a;
+    color: #ffffff;
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    border-color: white;
+    display:block;
+    margin:0 auto;
+    margin-bottom: 60px;
+   }
+    
+.more-button:hover {
+    opacity: 0.7;
+   }
+.access {
+    background: #fafafa;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.access h3 {
+    padding-top: 60px;
+}
+.access p {
+    margin-bottom: 60px;
+}
+iframe {
+    width: 100%;
+    margin-bottom: 60px;
+}
+.access-text {
+    font-size: 16px;
+}
+.access-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    margin:0 auto;
+    text-align: left;
+  }
+.access-text dt {
+    width: 150px;
+    margin-bottom: 30px;
+  }
+  
+.access-text dd {
+    margin-left: 0;
+    width: 200px;
+    margin-bottom: 30px;
+    white-space: nowrap;
+  }
+
+.contact {
+    text-align: center;
+    margin: 0px 0px 0px 150px;
+}
+.contact h3 {
+    margin: 60px 0px 30px 0px;
+}
+.contact-text1 {
+    margin-bottom: 60px;
+}
+.contact-text2 {
+    margin-bottom: 30px;
+}
+.contact-text3 {
+    margin-bottom: 70px;
+}
+/* .form dl {
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    margin:0 auto;
+    text-align: left;
+  }
+  input.name {
+    width: 300px;
+  }
+.form dt {
+    width: 240px;
+    margin-bottom: 30px;
+  }
+  
+.form dd {
+    margin-left: 0;
+    width: 400px;
+    margin-bottom: 30px;
+    white-space: nowrap;
+  }
+.dd4 {
+    display:flex;
+    flex-flow: column;
+}
+.btn {
+    background: #ffd61a;
+    color: #ffffff;
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    border-color: white;
+    display: inline-block;
+    margin: 30px 0px 140px 0px;
+   } */
+.form-wrapper form {
+    width:80%;
+    margin: 0px 300px;
+}
+.form-wrapper table{
+    width:100%;
+    margin-bottom:15px;
+}
+.form-wrapper th{
+    text-align:left;
+    width:25%;
+    padding:8px 0;
+    vertical-align:top;
+}
+.form-wrapper td{
+    background-color:white;
+    width:85%;
+}
+.form-wrapper input:not(input[type="checkbox"]), .form-wrapper textarea, .form-wrapper select:not(input[type="radio"]){
+    width:50%;
+}
+.form-wrapper input:not(input[type="radio"]){
+    height:20px;
+}
+.form-wrapper textarea{
+    height:150px;
+}
+.form-wrapper label{
+    display:block;
+}
+button.submit-btn {
+    background: #ffd61a;
+    color: #ffffff;
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    border-color: white;
+    display: inline-block;
+    margin: 30px 450px 140px 75px;
+
+   }
+.button-sub {
+    text-align: center;
+}
+footer {
+    padding: 30px 0px;
+    background-color: #707070;
+    color: white;
+    text-align: center;
+}
